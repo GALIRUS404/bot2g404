@@ -12,7 +12,7 @@ if [ -d "$file" ]; then
         read -p "Pilihan Anda: " hapus_session
         if [ "$hapus_session" = "y" ] || [ "$hapus_session" = "Y" ]; then
             echo "Menghapus session..."
-            rm -rf session
+            rm -rf sessions
             echo "Session dihapus."
         else
             echo "Session tidak dihapus."
